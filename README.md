@@ -1,4 +1,4 @@
-This repo describes swift's automatic linkage of modules if you import them.
+This repo describes swift's automatic linkage of modules if you import them and use symbols from them (see `import Dynamic` in [AppDelegate.swift](https://github.com/Usipov/SwiftAutoFrameworksLinkage/blob/master/LinkerTests/AppDelegate.swift)).
 This repo was created to support [this](https://stackoverflow.com/q/54153785/2982854) stackoverflow question.
 
 In this project, we have a main target (`LinkerTests`) and a dependent dynamic framework (`Dynamic`).
